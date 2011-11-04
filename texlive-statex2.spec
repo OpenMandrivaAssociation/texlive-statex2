@@ -45,6 +45,7 @@ upgrade of statex.
 %{_texmfdistdir}/tex/latex/statex2/statex2.sty
 %doc %{_texmfdistdir}/doc/latex/statex2/statex2-example.pdf
 %doc %{_texmfdistdir}/doc/latex/statex2/statex2-example.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +56,5 @@ upgrade of statex.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
