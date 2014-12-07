@@ -6,7 +6,7 @@
 # catalog-version 2.1
 Name:		texlive-statex2
 Version:	2.1
-Release:	8
+Release:	9
 Summary:	Statistics style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/statex2
