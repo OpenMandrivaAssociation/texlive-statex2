@@ -1,6 +1,6 @@
 Name:		texlive-statex2
 Version:	23961
-Release:	1
+Release:	2
 Summary:	Statistics style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/statex2
